@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: x97m/sample
+  repository: x97m/pipeline-example
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "beta"
@@ -62,4 +62,4 @@ tolerations: []
 
 affinity: {}
 
-port: 80
+port: 8080
