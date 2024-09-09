@@ -5,10 +5,10 @@
 replicaCount: 2
 
 image:
-  repository: x97m/pipeline-example
+  repository: x97m/sample
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "old"
+  tag: "beta"
 
 imagePullSecrets: []
 nameOverride: ""

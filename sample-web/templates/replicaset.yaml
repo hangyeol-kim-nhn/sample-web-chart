@@ -4,8 +4,6 @@ metadata:
   name: {{ include "sample-web.fullname" . }}
   labels:
     {{- include "sample-web.labels" . | nindent 4 }}
-  annotations:
-    traffic.spinnaker.io/load-balancers: '["service pipe-beta-service"]'
   namespace: hg-test
 spec:
   replicas: {{ .Values.replicaCount }}
