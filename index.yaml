@@ -3,12 +3,22 @@ entries:
   sample-web:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-02T17:25:08.575229+09:00"
+    created: "2024-09-09T09:22:49.230656+09:00"
     description: A Helm chart for Kubernetes
-    digest: 69902a300392a4384f84bf8ac1d6a11b883ecaebd33ebe0c7fde5f6caa34a902
+    digest: e55d360bdcb4902742e1ada872027a6dabc35685e99a521ccf9fcf432033ea5f
+    name: sample-web
+    type: application
+    urls:
+    - sample-web-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-09T09:22:49.23036+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 3e22d3493dd4dfacf6f03d65567cc5e313d17804146c4fe88c58c7fe30672253
     name: sample-web
     type: application
     urls:
     - sample-web-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-02T17:25:08.574282+09:00"
+generated: "2024-09-09T09:22:49.229305+09:00"
