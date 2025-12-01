@@ -14,7 +14,6 @@ spec:
     metadata:
       {{- with .Values.podAnnotations }}
       annotations:
-        abc: "{{ .Values.abc }}"
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
@@ -23,6 +22,7 @@ spec:
         {{- toYaml . | nindent 8 }}
         {{- end }}
     spec:
+      abc: "{{ .Values.abc }}"
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
